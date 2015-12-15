@@ -26,7 +26,7 @@ class Study(object):
         return self.result - other.result
 
     def __iter__(self):
-
+        pass
 class SMA(Study):
     """docstring for SMA"""
     def __init__(self, *args):#period = 30):
